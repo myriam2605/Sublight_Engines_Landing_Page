@@ -10,18 +10,18 @@
     overflow: visible, hidden, scroll, etc;
     box-sizing: border-box, etc;
     width: - - -;
-    height: - - - ;
+    height: - - -;
     padding: 10px 10px;
     border: 0 solid color;
-    margin: - - - ;
+    margin: - - -;
     /* COLOR */
-    background: - - - ;
-    color: - - - ;
+    background: - - -;
+    color: - - -;
     /* TEXT */
-    font-family: - - - ;
-    font-size: - - - ;
-    line-height: - - - ;
-    text-align: - - - ;
+    font-family: - - -;
+    font-size: - - -;
+    line-height: - - -;
+    text-align: - - -;
     /* OTHER */
-    cursor: - - - ;
+    cursor: - - -;
 }
