@@ -25,6 +25,7 @@
     /* OTHER */
     cursor: - - -;
 }
+/* FIRST SLIDE */
 body {
     image-rendering: url("../image/logo_sublight.svg");
 }
@@ -318,3 +319,184 @@ body {
         opacity: 1;
     } */
 /* } */
+
+/* SECTION DES ICONES */
+
+/* Rectangle 2 */
+
+.rectangle2 {
+    position: absolute;
+    width: 100%;
+    height: 711px;
+    left: 0px;
+    top: 960px;
+
+    /* Sublight Engines/Gray */
+
+    background: #383838;
+    background-repeat: no-repeat;
+}
+/* icon/design */
+
+.design {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 180px;
+    top: 1242px;
+}
+
+body {
+    image-rendering: url("../image/design.svg");
+}
+/* we design */
+
+.text_design {
+    /* position: absolute; */
+    /* width: 130px; */
+    height: 29px;
+    left: 240px;
+    top: 1538px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+/* icon/build */
+
+.build {
+    position: absolute;
+    width: 269px;
+    height: 250px;
+    left: 580px;
+    top: 1255px;
+}
+body {
+    image-rendering: url("../image/build.svg");
+}
+
+/* we build */
+
+.text_build {
+    /* position: absolute; */
+    /* width: 112px; */
+    height: 29px;
+    left: 663px;
+    top: 1538px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+/* icon/maintenance */
+
+.maintenance {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1008px;
+    top: 1242px;
+}
+/* we maintain */
+
+.text_maintain {
+    /* position: absolute; */
+    /* width: 162px; */
+    height: 29px;
+    left: 1052px;
+    top: 1538px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+body {
+    image-rendering: url("../image/maintenance.svg");
+}
+
+/* one-stop for your elevator needs */
+
+.text_one {
+    position: absolute;
+    width: 458px;
+    height: 29px;
+    left: 490px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 90px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+/* one step closer to success */
+
+.text_step {
+    position: absolute;
+    width: 667px;
+    height: 53px;
+    left: 386px;
+    top: 70px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+.col-sm-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    padding: 18% 0;
+    font-size: 30px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.mt-10 {
+    margin-top: 10px !important;
+}
