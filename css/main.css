@@ -952,7 +952,50 @@ body {
     box-sizing: border-box;
 }
 .select-dropdown {
-    padding: 10px 90px 10px 75px;
+    padding: 10px 90px 11px 66px;
     text-align: center;
     top: 20px;
+}
+/* FOOTER */
+/* Rectangle 8 */
+
+.rectangle8 {
+    position: absolute;
+    width: 100%;
+    height: 254px;
+    left: 0px;
+    top: 3899px;
+
+    /* Sublight Engines/Black */
+
+    background: #292929;
+}
+/* With your trust since 1943. */
+
+.text_trust {
+    /* position: absolute; */
+    width: 1090px;
+    height: 53px;
+    left: 258px;
+    top: 3999px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 250px;
+    /* identical to box height */
+
+    /* Sublight Engines/Orange */
+
+    color: #ff7630;
+}
+/* logo/signature */
+.logo_signature {
+    /* position: absolute; */
+    width: 298px;
+    height: 141px;
+    left: 858px;
+    top: 3955px;
+    padding: 54px 0px 0px 0px;
 }
