@@ -1046,7 +1046,7 @@ body {
 
 .text_rights {
     position: absolute;
-    /* width: 223px; */
+    width: 223px;
     height: 12px;
     left: 609px;
     top: 4422px;
