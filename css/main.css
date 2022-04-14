@@ -999,3 +999,112 @@ body {
     top: 3955px;
     padding: 54px 0px 0px 0px;
 }
+
+/* UNITED STATES office logo footer*/
+
+.text_united {
+    position: absolute;
+    width: 163px;
+    height: 18px;
+    left: 67px;
+    top: 4233px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #ff7630;
+}
+/* 456 harlem boulevard saratoga springs, ny, usa 1 999 543-4567 */
+
+.text_boul {
+    position: absolute;
+    width: 295px;
+    height: 78px;
+    left: 67px;
+    top: 4258px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+/* All rights reserved to CodeBoxx Solutions ©, 2022. */
+
+.text_rights {
+    position: absolute;
+    /* width: 223px; */
+    height: 12px;
+    left: 609px;
+    top: 4422px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+/* Canada’s office */
+.text_canada {
+    position: absolute;
+    width: 126px;
+    height: 18px;
+    left: 1244px;
+    top: 4233px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #ff7630;
+}
+
+/* 23895 bradshaw boulevard kingston, ont, ca 1 999 543-4567 */
+
+.text_23 {
+    position: absolute;
+    width: 314px;
+    height: 78px;
+    left: 1056px;
+    top: 4258px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
