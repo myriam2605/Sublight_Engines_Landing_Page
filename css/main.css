@@ -851,7 +851,7 @@ body {
     right: 0%;
     top: 25.71%;
     bottom: 0%;
-
+    padding: 10.5px 0px 10.5px 0px;
     /* Sublight Engines/Light Gray */
 
     border: 1px solid #a0a0a0;
@@ -901,16 +901,16 @@ body {
     width: 49%;
 }
 
-.poulet div {
+.help div {
     width: 100%;
     text-align: left;
 }
 
-.poulet div input {
+.help div input {
     width: 95%;
 }
 
-.poulet {
+.help {
     display: flex;
     align-items: flex-start;
 }
@@ -918,4 +918,41 @@ body {
     position: relative;
     text-align: left;
     color: white;
+}
+/* Download our catalog */
+.text_submit {
+    /* position: absolute;
+    left: 43.37%;
+    right: 43.18%;
+    top: 28%;
+    bottom: 28%; */
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Sublight Engines/Black */
+.submit_button {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    /* bottom: 0%; */
+    padding: 15px 15px 15px 15px;
+    /* Sublight Engines/Black */
+    margin: 50px 5px 0px 0px;
+    border: 3px solid #292929;
+    box-sizing: border-box;
+}
+.select-dropdown {
+    padding: 10px 90px 10px 75px;
+    text-align: center;
+    top: 20px;
 }
