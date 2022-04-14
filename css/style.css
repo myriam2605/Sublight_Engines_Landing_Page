@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+#perfection {
+    display: flex;
+}
+
+#outils {
+    background-color: #ff7630;
+    width: 100%;
+}
+
+#outils .grid-container div {
+    background-color: black;
+    flex: 1;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#outils .grid-container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#products .grid-container .card1 {
+    border: 1px solid black;
+    flex: 1;
+}
+
+#products .grid-container {
+    display: flex;
+    width: 100%;
+}
+
+#products {
+    background-color: #ff7630;
+}
+
+header .slide_img {
+    width: 100%;
+}
+
+#contact {
+    text-align: center;
+}
