@@ -603,8 +603,9 @@ body {
     display: grid;
     text-align: center;
     grid-template-columns: auto auto;
-    padding: 0% 0;
+    /* padding: 50% 50; */
     font-size: 30px;
+    /* margin: 0px 11px 0px 0px; */
 }
 /* section 4///////////////////////////////////////////////////////////////////// */
 
@@ -625,16 +626,16 @@ body {
 /* need more for your fleet of elevators */
 .text_need {
     position: absolute;
-    width: 518px;
-    height: 29px;
-    left: 460px;
-    top: 35px;
+    width: 500px;
+    height: 663px;
+    left: 450px;
+    top: 39px;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 24px;
+    line-height: 45px;
     text-align: center;
     text-transform: uppercase;
 
@@ -645,16 +646,16 @@ body {
 
 .text_product {
     position: absolute;
-    width: 659px;
-    height: 53px;
-    left: 390px;
+    width: 660px;
+    height: 106px;
+    left: 370px;
     top: 70px;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
-    line-height: 53px;
+    line-height: 59px;
     text-align: center;
     text-transform: uppercase;
 
@@ -664,8 +665,10 @@ body {
     display: grid;
     text-align: center;
     grid-template-columns: auto auto auto auto auto;
-    padding: 25% 0;
+    padding: 24% 0 10% 0%;
     font-size: 0px;
+    margin: 30px;
+    /* top: 10px; */
 }
 /* Rectangle 5 */
 
@@ -976,16 +979,16 @@ body {
 
 .text_trust {
     /* position: absolute; */
-    width: 1090px;
-    height: 53px;
+    width: 100%;
+    height: auto;
     left: 258px;
     top: 3999px;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
-    line-height: 250px;
+    font-size: 55px;
+    line-height: 253px;
     /* identical to box height */
 
     /* Sublight Engines/Orange */
@@ -999,7 +1002,7 @@ body {
     height: 141px;
     left: 858px;
     top: 3955px;
-    padding: 54px 0px 0px 0px;
+    padding: 48px 97px 0px 6px;
 }
 
 /* UNITED STATES office logo footer*/
