@@ -347,7 +347,7 @@ body {
     top: 30%;
     /* bottom: -20.71%; */
 
-    /* background: #ffffff; */
+    background: #ffffff;
     /* transform: rotate(-45deg); */
     /* Line 1 */
 
@@ -358,7 +358,7 @@ body {
     bottom: 50%;
     color: #ffffff;
 
-    /* border: 1px solid #ffffff; */
+    border: 1px solid #ffffff;
 }
 
 /* icon/design */
@@ -665,9 +665,9 @@ body {
     display: grid;
     text-align: center;
     grid-template-columns: auto auto auto auto auto;
-    padding: 24% 0 10% 0%;
+    padding: 24% 0 0% 0%;
     font-size: 0px;
-    margin: 30px;
+    margin: 20px;
     /* top: 10px; */
 }
 /* Rectangle 5 */
@@ -702,7 +702,19 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    /* padding: 10px; */
+}
+.container_sub {
+    position: relative;
+    text-align: center;
+    color: white;
     padding: 10px;
+}
+#submit .container_sub div {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px;
 }
 .centered {
     position: absolute;
@@ -1118,9 +1130,55 @@ body {
 /* btn/outline */
 
 .download {
-    position: absolute;
-    width: 294px;
-    height: 50px;
-    left: 572px;
-    top: 2929px;
+    /* position: absolute; */
+    width: 300px;
+    height: 53px;
+    /* left: 572px; */
+    /* top: 2929px; */
+}
+.btn {
+    border-bottom: #ff7630;
+    color: #ff7630;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin: 5% 0% 0% 40%;
+    /* font-size: 20px; */
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: orangered;
+}
+/* Rectangle 6 */
+
+.rectangle6 {
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: #ff7630;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+}
+
+/* Download our catalog */
+
+.text_download {
+    /* position: absolute; */
+    left: 12.24%;
+    right: 12.24%;
+    top: 28%;
+    bottom: 28%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
 }
