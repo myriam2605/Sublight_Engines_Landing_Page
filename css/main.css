@@ -322,8 +322,27 @@ body {
 
 /* SECTION DES ICONES /////////////////////////////////////////////////////////////////*/
 
-/* Rectangle 2 */
+.separator_blc {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 50%;
+    /* bottom: 50%;
 
+    border: 1px solid #ffffff;
+
+    /* Rectangle 4 */
+
+    /* position: absolute; */
+    left: 42.35%;
+    /* right: 47.04%; */
+    top: 30%;
+    bottom: -20.71%;
+
+    /* background: #ffffff;
+    transform: rotate(-45deg); */
+}
+/* Rectangle 2 */
 .rectangle2 {
     position: absolute;
     width: 100%;
