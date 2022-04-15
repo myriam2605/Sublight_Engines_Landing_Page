@@ -338,16 +338,16 @@ body {
 }
 
 /* separator */
-.separator {
+.separator4 {
     /* Rectangle 4 */
 
-    /* position: absolute; */
+    position: absolute;
     left: 42.35%;
     right: 47.04%;
-    top: 30%;
+    top: 28%;
     /* bottom: -20.71%; */
 
-    background: #ffffff;
+    /* background: #ffffff; */
     /* transform: rotate(-45deg); */
     /* Line 1
 
@@ -358,7 +358,23 @@ body {
     bottom: 50%;
     color: #ffffff;
 
-    border: 1px solid #ffffff; */
+    /* border: 1px solid #ffffff; */
+}
+.separator5 {
+    /* position: absolute; */
+    left: 30.35%;
+    right: 47.04%;
+    top: -100%;
+    /* bottom: -20.71%; */
+    /* background: #ffffff; */
+    /* transform: rotate(-45deg); */
+    position: absolute;
+    /* left: 0%; */
+    /* right: 0%; */
+    /* top: 50%; */
+    bottom: 50%;
+    color: #ffffff;
+    /* border: 1px solid #ffffff; */
 }
 
 /* icon/design */
@@ -768,28 +784,6 @@ body {
     color: #383838;
 }
 
-/* separator5 */
-.separator5 {
-    /* position: absolute; */
-    left: 42.35%;
-    right: 47.04%;
-    top: 30%;
-    /* bottom: -20.71%; */
-
-    /* background: #ffffff; */
-    /* transform: rotate(-45deg); */
-    /* Line 1 */
-
-    position: absolute;
-    /* left: 0%; */
-    /* right: 0%; */
-    /* top: 50%; */
-    bottom: 50%;
-    color: #ffffff;
-
-    /* border: 1px solid #ffffff; */
-}
-
 /* ////////////////////////////////section 5 /////////////////////////////////////// */
 /* stay in touch with our customer service */
 
@@ -1065,7 +1059,7 @@ body {
 .text_rights {
     position: absolute;
     /* width: 223px; */
-    height: 12px;
+    height: 20px;
     left: 609px;
     top: 4422px;
 
@@ -1073,11 +1067,12 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 0%;
+
     /* identical to box height */
 
     text-align: center;
-
+    padding: 0% 0% 2% 0%;
     /* Sublight Engines/Black */
 
     color: #292929;
