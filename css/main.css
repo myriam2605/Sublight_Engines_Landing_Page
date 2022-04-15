@@ -322,8 +322,27 @@ body {
 
 /* SECTION DES ICONES /////////////////////////////////////////////////////////////////*/
 
-/* Rectangle 2 */
+.separator_blc {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 50%;
+    /* bottom: 50%;
 
+    border: 1px solid #ffffff;
+
+    /* Rectangle 4 */
+
+    /* position: absolute; */
+    left: 42.35%;
+    /* right: 47.04%; */
+    top: 30%;
+    bottom: -20.71%;
+
+    /* background: #ffffff;
+    transform: rotate(-45deg); */
+}
+/* Rectangle 2 */
 .rectangle2 {
     position: absolute;
     width: 100%;
@@ -338,18 +357,18 @@ body {
 }
 
 /* separator */
-.separator {
+.separator4 {
     /* Rectangle 4 */
 
-    /* position: absolute; */
+    position: absolute;
     left: 42.35%;
     right: 47.04%;
-    top: 30%;
+    top: 28%;
     /* bottom: -20.71%; */
 
     /* background: #ffffff; */
     /* transform: rotate(-45deg); */
-    /* Line 1 */
+    /* Line 1
 
     position: absolute;
     /* left: 0%; */
@@ -358,6 +377,22 @@ body {
     bottom: 50%;
     color: #ffffff;
 
+    /* border: 1px solid #ffffff; */
+}
+.separator5 {
+    /* position: absolute; */
+    left: 30.35%;
+    right: 47.04%;
+    top: -100%;
+    /* bottom: -20.71%; */
+    /* background: #ffffff; */
+    /* transform: rotate(-45deg); */
+    position: absolute;
+    /* left: 0%; */
+    /* right: 0%; */
+    /* top: 50%; */
+    bottom: 50%;
+    color: #ffffff;
     /* border: 1px solid #ffffff; */
 }
 
@@ -603,8 +638,9 @@ body {
     display: grid;
     text-align: center;
     grid-template-columns: auto auto;
-    padding: 0% 0;
+    /* padding: 50% 50; */
     font-size: 30px;
+    /* margin: 0px 11px 0px 0px; */
 }
 /* section 4///////////////////////////////////////////////////////////////////// */
 
@@ -625,16 +661,16 @@ body {
 /* need more for your fleet of elevators */
 .text_need {
     position: absolute;
-    width: 518px;
-    height: 29px;
-    left: 460px;
-    top: 35px;
+    width: 500px;
+    height: 663px;
+    left: 450px;
+    top: 39px;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 24px;
+    line-height: 45px;
     text-align: center;
     text-transform: uppercase;
 
@@ -645,16 +681,16 @@ body {
 
 .text_product {
     position: absolute;
-    width: 659px;
-    height: 53px;
-    left: 390px;
+    width: 660px;
+    height: 106px;
+    left: 370px;
     top: 70px;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
-    line-height: 53px;
+    line-height: 59px;
     text-align: center;
     text-transform: uppercase;
 
@@ -664,8 +700,10 @@ body {
     display: grid;
     text-align: center;
     grid-template-columns: auto auto auto auto auto;
-    padding: 25% 0;
+    padding: 24% 0 0% 0%;
     font-size: 0px;
+    margin: 20px;
+    /* top: 10px; */
 }
 /* Rectangle 5 */
 
@@ -699,6 +737,19 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    /* padding: 10px; */
+}
+.container_sub {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#submit .container_sub div {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px;
 }
 .centered {
     position: absolute;
@@ -711,14 +762,14 @@ body {
     position: absolute;
     /* left: 6.27%;
     right: 6.27%; */
-    top: 35%;
+    top: 30%;
     bottom: 21.37%;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 42px;
     text-align: center;
     text-transform: uppercase;
 
@@ -731,15 +782,17 @@ body {
 
 .text_safetyprg {
     position: absolute;
+    width: 255px;
+    height: 36px;
     /* left: 20%;
     right: 50%; */
-    top: 60%;
+    top: 61%;
     bottom: 7.33%;
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 22px;
     /* or 110% */
 
@@ -748,28 +801,6 @@ body {
     /* Sublight Engines/Gray */
 
     color: #383838;
-}
-
-/* separator5 */
-.separator5 {
-    /* position: absolute; */
-    left: 42.35%;
-    right: 47.04%;
-    top: 30%;
-    /* bottom: -20.71%; */
-
-    /* background: #ffffff; */
-    /* transform: rotate(-45deg); */
-    /* Line 1 */
-
-    position: absolute;
-    /* left: 0%; */
-    /* right: 0%; */
-    /* top: 50%; */
-    bottom: 50%;
-    color: #ffffff;
-
-    /* border: 1px solid #ffffff; */
 }
 
 /* ////////////////////////////////section 5 /////////////////////////////////////// */
@@ -851,7 +882,7 @@ body {
     right: 0%;
     top: 25.71%;
     bottom: 0%;
-
+    padding: 10.5px 0px 10.5px 16px;
     /* Sublight Engines/Light Gray */
 
     border: 1px solid #a0a0a0;
@@ -901,16 +932,16 @@ body {
     width: 49%;
 }
 
-.poulet div {
+.help div {
     width: 100%;
     text-align: left;
 }
 
-.poulet div input {
+.help div input {
     width: 95%;
 }
 
-.poulet {
+.help {
     display: flex;
     align-items: flex-start;
 }
@@ -918,4 +949,250 @@ body {
     position: relative;
     text-align: left;
     color: white;
+}
+/* Download our catalog */
+.text_submit {
+    /* position: absolute;
+    left: 43.37%;
+    right: 43.18%;
+    top: 28%;
+    bottom: 28%; */
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Sublight Engines/Black */
+.submit_button {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    /* bottom: 0%; */
+    padding: 10px 10px 10px 10px;
+    /* Sublight Engines/Black */
+    margin: 30px 30px 14px 12px;
+    border: 3px solid #292929;
+    box-sizing: border-box;
+}
+.select-dropdown {
+    padding: 10px 90px 11px 51px;
+    text-align: center;
+    top: 20px;
+}
+/* FOOTER */
+/* Rectangle 8 */
+
+.rectangle8 {
+    position: absolute;
+    width: 100%;
+    height: 254px;
+    left: 0px;
+    top: 3899px;
+
+    /* Sublight Engines/Black */
+
+    background: #292929;
+}
+/* With your trust since 1943. */
+
+.text_trust {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    left: 258px;
+    top: 3999px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 253px;
+    /* identical to box height */
+
+    /* Sublight Engines/Orange */
+
+    color: #ff7630;
+}
+/* logo/signature */
+.logo_signature {
+    /* position: absolute; */
+    width: 298px;
+    height: 141px;
+    left: 858px;
+    top: 3955px;
+    padding: 48px 97px 0px 6px;
+}
+
+/* UNITED STATES office logo footer*/
+
+.text_united {
+    position: absolute;
+    width: 163px;
+    height: 18px;
+    left: 67px;
+    top: 4233px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #ff7630;
+}
+/* 456 harlem boulevard saratoga springs, ny, usa 1 999 543-4567 */
+
+.text_boul {
+    position: absolute;
+    width: 295px;
+    height: 78px;
+    left: 67px;
+    top: 4258px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+/* All rights reserved to CodeBoxx Solutions ©, 2022. */
+
+.text_rights {
+    position: absolute;
+    /* width: 223px; */
+    height: 20px;
+    left: 609px;
+    top: 4422px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0%;
+
+    /* identical to box height */
+
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+/* Canada’s office */
+.text_canada {
+    position: absolute;
+    width: 126px;
+    height: 18px;
+    left: 1244px;
+    top: 4233px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #ff7630;
+}
+
+/* 23895 bradshaw boulevard kingston, ont, ca 1 999 543-4567 */
+
+.text_23 {
+    position: absolute;
+    width: 314px;
+    height: 78px;
+    left: 1056px;
+    top: 4258px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+/* btn/outline */
+
+.download {
+    /* position: absolute; */
+    width: 300px;
+    height: 53px;
+    /* left: 572px; */
+    /* top: 2929px; */
+}
+.btn {
+    border-bottom: #ff7630;
+    color: #ff7630;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin: 5% 0% 0% 40%;
+    /* font-size: 20px; */
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: orangered;
+}
+/* Rectangle 6 */
+
+.rectangle6 {
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: #ff7630;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+}
+
+/* Download our catalog */
+
+.text_download {
+    /* position: absolute; */
+    left: 12.24%;
+    right: 12.24%;
+    top: 28%;
+    bottom: 28%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
 }
