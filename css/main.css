@@ -1016,16 +1016,16 @@ body {
 /* With your trust since 1943. */
 
 .text_trust {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     height: auto;
-    left: 258px;
-    top: 3999px;
+    left: -17%;
+    /* top: 3999px; */
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 45px;
     line-height: 253px;
     /* identical to box height */
 
